@@ -7,7 +7,8 @@
 int main()
 {
         Calculator c;
-        std::cout<<c.add(4,5);
+        std::cout<<c.add(4,5)<< " ";
+        std::cout<<c.sub(67,5);
 
         return 0;
 }
